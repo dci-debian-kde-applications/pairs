@@ -17,13 +17,13 @@ Section: games
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: memory and pairs game
- game that will help train your memory by remembering different images, shapes, 
- sounds and text.
+ Pairs is a game that helps you training your memory by remembering
+ different images, shapes, sounds and text.
  .
  Features:
-  - Pair images
-  - Pair similar images
-  - Pair sounds
-  - Pair sounds and images
+  - pair images
+  - pair similar images
+  - pair sounds
+  - pair sounds and images
  .
- This package is part of the KDE Educational module.
+ This package is part of the KDE educational module.
