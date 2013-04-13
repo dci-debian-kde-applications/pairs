@@ -1,0 +1,6 @@
+pairs (4:4.10.2-1) UNRELAESED; urgency=low
+
+  [ Sune Vuorela ]
+  * Initial packaging.
+
+ -- Sune Vuorela <sune@debian.org>  Fri, 05 Apr 2013 22:09:37 +0000

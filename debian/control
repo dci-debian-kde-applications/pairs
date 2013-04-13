@@ -1,0 +1,29 @@
+Source: pairs
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.10),
+ libphonon-dev
+Standards-Version: 3.9.3
+Homepage: http://www.kde.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/pairs.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/pairs.git
+
+Package: pairs
+Section: games
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: memory and pairs game
+ game that will help train your memory by remembering different images, shapes, 
+ sounds and text.
+ .
+ Features:
+  - Pair images
+  - Pair similar images
+  - Pair sounds
+  - Pair sounds and images
+ .
+ This package is part of the KDE Educational module.
