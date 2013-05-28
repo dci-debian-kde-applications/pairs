@@ -5,6 +5,7 @@ pairs (4:4.10.3-1) UNRELEASED; urgency=low
 
   [ Maximiliano Curia ]
   * New upstream release.
+  * Install game in /usr/games.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 20:49:53 +0200
 
