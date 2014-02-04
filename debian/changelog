@@ -1,9 +1,10 @@
-pairs (4:4.11.3-2) UNRELEASED; urgency=low
+pairs (4:4.12.2-1) UNRELEASED; urgency=low
 
   * Bump Standards-Version to 3.9.5, no changes needed.
   * Do not disable an empty test set.
+  * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jan 2014 15:27:02 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:16:06 +0100
 
 pairs (4:4.11.3-1) unstable; urgency=low
 
