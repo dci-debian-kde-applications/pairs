@@ -1,8 +1,8 @@
-pairs (4:14.12.3-1~) UNRELEASED; urgency=medium
+pairs (4:14.12.3-1) experimental; urgency=medium
 
   * New upstream release (14.12.3).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:39:20 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:30 +0200
 
 pairs (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
