@@ -9,7 +9,7 @@ Build-Depends: cmake,
                kdelibs5-dev,
                libphonon-dev,
                pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/pairs.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/pairs.git
