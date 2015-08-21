@@ -1,3 +1,9 @@
+pairs (4:15.01.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Aug 2015 18:08:55 +0100
+
 pairs (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   * new upstream beta release
