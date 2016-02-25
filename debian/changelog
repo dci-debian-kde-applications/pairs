@@ -8,6 +8,9 @@ pairs (4:15.04.3-1~) UNRELEASED; urgency=medium
   * Add --owner=root --group=root --numeric-owner to tar command line
     patch to make package build reproducibly. (Closes: #815716)
 
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.7, no changes needed.
+
  -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:26:32 +0200
 
 pairs (4:14.12.3-1) experimental; urgency=medium
