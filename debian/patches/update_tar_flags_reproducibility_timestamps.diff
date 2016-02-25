@@ -1,0 +1,18 @@
+Description: Add --owner=root --group=root --numeric-owner to tar command line. 
+ To fix buid reproducibility. 
+Forwarded: TBD
+Author: Scarlett Clark <sgclark-guest@users.alioth.debian.org>
+
+diff --git a/themes/CMakeLists.txt b/themes/CMakeLists.txt
+index fa3ae67..8597ccb 100644
+--- a/themes/CMakeLists.txt
++++ b/themes/CMakeLists.txt
+@@ -47,7 +47,7 @@ function(create_theme _baseName)
+     else(WIN32)
+         add_custom_command(OUTPUT ${_template}
+             COMMAND tar ARGS cjf
+-                ${_template} ${_files}
++                ${_template} --owner=root --group=root --numeric-owner ${_files}
+             DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/${_baseName}"
+             WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/${_baseName}"
+         )
